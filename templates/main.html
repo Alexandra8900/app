@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <style>
 form {
     margin: auto;
@@ -18,7 +18,7 @@ form {
     <title>  Прогнозирование глубины и толщины шва  </title>
 </head>
 
-<form action="{{url_for('main')}}" method = "POST">
+<form action="{{ url_for ('main')}}" method = "POST">
     <fieldset>
         <legend>Введите значение величины сварочного тока </legend>
         <input name="IW" type="number"
